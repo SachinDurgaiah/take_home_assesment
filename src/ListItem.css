@@ -1,0 +1,75 @@
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color: #6fa665;
+    cursor: pointer;
+}
+
+
+.during-popup{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    pointer-events: none;
+}
+
+.PopUp{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.popup-x{
+    width: 3em;
+    height: 2em;
+    border: none;
+    align-self: flex-end;
+    background-color: red;
+    color: white;
+}
+
+.column {
+    margin: 2px;
+  }
+
+.pu-img{
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+}
+
+.pu-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pu-content-text{
+    padding-left: 10px;
+    font: 1em sans-serif;
+    font-weight: 300;
+}
+
+
+.image-style:hover{
+    cursor: pointer;
+    border: 3px solid rgb(19, 221, 4);
+}
+
+.buttonStyle {
+    font: 1em sans-serif;
+    outline: none;
+};
+
+.buttonStyle:hover{
+    background-color: #51cd3c;
+    cursor: pointer;
+}
